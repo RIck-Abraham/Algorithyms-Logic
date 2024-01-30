@@ -1,0 +1,13 @@
+integer x
+integer y
+
+x = Get next input
+y = Get next input
+
+if y < x
+   Put "Second integer can't be less than the first." to output
+else
+   while x <= y
+      Put x to output
+      Put " " to output
+      x = x + 10

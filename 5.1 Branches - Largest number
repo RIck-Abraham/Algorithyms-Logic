@@ -1,0 +1,17 @@
+integer x
+integer y
+integer z
+
+x = Get next input
+y = Get next input
+z = Get next input
+
+if x > y
+   if x > z
+      Put x to output
+   else 
+      Put z to output
+elseif y > z
+   Put y to output
+else 
+   Put z to output

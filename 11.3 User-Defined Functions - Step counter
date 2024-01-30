@@ -1,0 +1,11 @@
+Function StepsToMiles(integer userSteps) returns float numMiles
+   numMiles = userSteps / 2000.0
+   
+Function Main() returns nothing
+   integer steps
+   
+   //Gets the users inputs
+   steps = Get next input
+   
+   //Calls the calculating functions
+   Put StepsToMiles(steps) to output

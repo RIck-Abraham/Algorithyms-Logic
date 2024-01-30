@@ -1,0 +1,14 @@
+integer i
+integer x
+
+
+x = Get next input
+i = (x / 11) * 11
+
+if (x < 20) or (x > 98)
+   Put "Input must be 20-98" to output
+else
+   while x >= i
+      Put x to output
+      Put " " to output
+      x = x - 1

@@ -1,0 +1,17 @@
+Function OutputLeapYear(integer inputYear) returns nothing
+   //Check for century and leap year
+   if (inputYear % 100 != 0) and (inputYear % 4 != 0) or (inputYear % 100 == 0) and (inputYear % 400 != 0)
+      Put inputYear to output
+      Put " is not a leap year." to output
+   else
+      Put inputYear to output
+      Put " is a leap year." to output   
+   
+Function Main() returns nothing
+   integer year
+   
+   //Gets the users inputs
+   year = Get next input
+   
+   //Calls the calculating functions
+   OutputLeapYear(year)

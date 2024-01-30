@@ -1,0 +1,25 @@
+integer userNum
+integer x
+integer result
+
+userNum = Get next input
+x = Get next input
+
+//first
+result = userNum/x
+Put result to output
+
+//second
+Put " " to output
+result = result/x
+Put result to output
+
+//third
+Put " " to output
+result = result/x
+Put result to output
+
+//fourth
+Put " " to output
+result = result/x
+Put result to output

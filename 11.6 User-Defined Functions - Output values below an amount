@@ -1,0 +1,22 @@
+Function outputIntsLessThanOrEqualToThreshold(integer array(?) userVals, integer upperThreshold) returns nothing
+   //Gets all number less than last input
+   integer i
+   for i = 0; i < userVals.size; i = i + 1
+      if userVals[i] <= upperThreshold
+         Put userVals[i] to output
+         Put " " to output
+   
+Function Main() returns nothing
+   integer array(5) userInts
+   integer userInput
+   integer i
+   
+   //Gets the first five inputs
+   for i = 0; i < userInts.size; i = i + 1
+      userInts[i] = Get next input
+   
+   //Gets next number
+   userInput = Get next input
+   
+   //Sends information to function
+   outputIntsLessThanOrEqualToThreshold(userInts, userInput)

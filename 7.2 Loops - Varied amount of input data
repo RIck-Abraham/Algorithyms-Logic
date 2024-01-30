@@ -1,0 +1,20 @@
+integer x
+integer i
+integer sumNumbers
+integer max
+
+sumNumbers = 0
+max = 0
+i = 0
+x = Get next input
+
+while x >= 0
+   if x > max
+      max = x
+   sumNumbers = sumNumbers + x
+   x = Get next input
+   i = i + 1
+   
+Put sumNumbers / i to output
+Put " " to output
+Put max to output

@@ -1,0 +1,24 @@
+float x
+float y
+float z
+float power
+float powerToPower
+float absolute
+float sqroot
+
+x = Get next input
+y = Get next input
+z = Get next input
+
+power = RaiseToPower(x, y)
+powerToPower = RaiseToPower(x, RaiseToPower(y, z))
+absolute = AbsoluteValue(x)
+sqroot = SquareRoot(RaiseToPower((x * y), z))
+
+Put power to output
+Put " " to output
+Put powerToPower to output
+Put " " to output
+Put absolute to output
+Put " " to output
+Put sqroot to output

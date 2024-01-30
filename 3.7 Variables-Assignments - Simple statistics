@@ -1,0 +1,29 @@
+float firstNum
+float secondNum
+float thirdNum
+float avgFloat
+float prodFloat
+integer avgInt
+integer prodInt
+
+firstNum = Get next input
+secondNum = Get next input
+thirdNum = Get next input
+
+avgFloat = (firstNum + secondNum + thirdNum)/3
+prodFloat = firstNum * secondNum * thirdNum
+
+avgInt = (firstNum + secondNum + thirdNum)/3
+prodInt = firstNum * secondNum * thirdNum
+
+//Part One
+Put avgInt to output
+Put " " to output
+Put prodInt to output
+
+Put "\n" to output
+
+//Part Two
+Put avgFloat to output
+Put " " to output
+Put prodFloat to output

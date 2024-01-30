@@ -1,0 +1,17 @@
+Function DrivingCost(float drivenMiles, float milesPerGallon, float dollarsPerGallon) returns float cost
+   cost = (drivenMiles / milesPerGallon) * dollarsPerGallon
+   
+Function Main() returns nothing
+   float mpg
+   float price
+   
+   //Gets the users inputs
+   mpg = Get next input
+   price = Get next input
+   
+   //Calls the calculating functions
+   Put DrivingCost(10, mpg, price) to output
+   Put " " to output
+   Put DrivingCost(50, mpg, price) to output
+   Put " " to output
+   Put DrivingCost(400, mpg, price) to output

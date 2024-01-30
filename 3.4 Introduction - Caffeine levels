@@ -1,0 +1,21 @@
+integer caffiene
+float sixHours
+float eightHours
+float twelveHours
+
+caffiene = Get next input
+sixHours = 0.5
+eightHours = 0.25
+twelveHours = 0.125
+
+Put "After 6 hours: " to output
+Put caffiene * sixHours to output
+Put " mg\n" to output
+
+Put "After 12 hours: " to output
+Put caffiene * eightHours to output
+Put " mg\n" to output
+
+Put "After 18 hours: " to output
+Put caffiene * twelveHours to output
+Put " mg" to output

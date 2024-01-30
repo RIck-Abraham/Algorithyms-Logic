@@ -1,0 +1,29 @@
+integer r
+integer g
+integer b
+integer red
+integer green
+integer blue
+
+r = Get next input
+g = Get next input
+b = Get next input
+
+if (r < g) and (r < b)
+   red = r - r
+   green = g - r
+   blue = b - r
+elseif (g < r) and (g < b)
+   red = r - g
+   green = g - g
+   blue = b - g
+elseif (b < g) and (b < r)
+   red = r - b
+   green = g - b
+   blue = b - b
+   
+Put red to output
+Put " " to output
+Put green to output
+Put " " to output
+Put blue to output

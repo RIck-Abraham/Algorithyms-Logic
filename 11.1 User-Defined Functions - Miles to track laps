@@ -1,0 +1,10 @@
+Function MilesToLaps(float userMiles) returns float userLaps
+   // Define MilesToLaps here.
+   userLaps = userMiles / 0.25
+
+Function Main() returns nothing
+   // Define Main here. Your code must call MilesToLaps.
+   float miles
+   
+   miles = Get next input
+   Put MilesToLaps(miles) to output

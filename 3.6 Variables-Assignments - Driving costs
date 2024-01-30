@@ -1,0 +1,14 @@
+float mpg
+float dpg
+float cost
+
+mpg = Get next input
+dpg = Get next input
+
+Put (10/mpg)*dpg to output
+Put " " to output
+
+Put (50/mpg)*dpg to output
+Put " " to output
+
+Put (400/mpg)*dpg to output

@@ -1,0 +1,7 @@
+integer x
+
+x = Get next input
+
+while x > 0
+   Put x % 2 to output
+   x = x / 2

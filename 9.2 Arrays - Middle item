@@ -1,0 +1,24 @@
+integer array(9) userInts
+integer userInput
+integer i
+
+//Initialize variables
+i = 0 
+
+//Gets the inputs
+while (userInput > -1)
+   userInput = Get next input
+   //Checks inputs
+   if (i == userInts.size) and (userInput > -1)
+      Put "Too many inputs" to output
+      i = i + 1
+   elseif (i < userInts.size) and (userInput > -1)
+      userInts[i] = userInput
+      i = i + 1
+
+//Gets middle number
+if (i <= userInts.size)
+   if (userInts.size % 2 == 0)
+      Put userInts[(i / 2) + 1] to output
+   else
+      Put userInts[(i / 2)] to output

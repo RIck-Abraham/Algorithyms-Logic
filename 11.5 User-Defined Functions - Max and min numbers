@@ -1,0 +1,38 @@
+Function LargestNumber(integer num1, integer num2, integer num3) returns integer largestNum
+   if num1 > num2
+      if num1 > num3
+         largestNum = num1
+      else 
+         largestNum = num3
+   elseif num2 > num3
+      largestNum = num2
+   else 
+      largestNum = num3
+   
+Function SmallestNumber(integer num1, integer num2, integer num3) returns integer smallestNum
+   if num1 < num2
+      if num1 < num3
+         smallestNum = num1
+      else 
+         smallestNum = num3
+   elseif num2 < num3
+      smallestNum = num2
+   else 
+      smallestNum = num3
+      
+Function Main() returns nothing
+   integer userInput1
+   integer userInput2
+   integer userInput3
+   
+   //Gets the users inputs
+   userInput1 = Get next input
+   userInput2 = Get next input
+   userInput3 = Get next input
+   
+   //Calls the calculating functions
+   Put "largest: " to output
+   Put LargestNumber(userInput1, userInput2, userInput3) to output
+   Put "\n" to output
+   Put "smallest: " to output
+   Put SmallestNumber(userInput1, userInput2, userInput3) to output

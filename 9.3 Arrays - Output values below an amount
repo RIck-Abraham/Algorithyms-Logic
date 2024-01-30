@@ -1,0 +1,17 @@
+integer array(5) userInts
+integer userInput
+integer i
+
+//Gets the first five inputs
+for i = 0; i < userInts.size; i = i + 1
+   userInts[i] = Get next input
+
+//Gets next number
+userInput = Get next input
+
+//Gets all number less than last input
+for i = 0; i < userInts.size; i = i + 1
+   if userInts[i] < userInput
+      Put userInts[i] to output
+      Put " " to output
+Put "\n" to output
